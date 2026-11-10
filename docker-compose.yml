@@ -20,7 +20,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: docker/backend/Dockerfile
+      dockerfile: Dockerfile
     container_name: smarttolet-backend
     restart: unless-stopped
     depends_on:
